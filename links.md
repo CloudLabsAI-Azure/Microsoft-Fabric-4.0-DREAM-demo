@@ -6,7 +6,7 @@ In this demonstration, you'll witness how Contoso unfold the future of integrati
 
 IMPORTANT! Please launch the demo 15 minutes prior to presenting. Some resources may take a few minutes to provision for a complete demo and provisioning of ODL user access may take 5 to 7 minutes. If you receive unauthorized error messages on any resources, wait for a few minutes and then hard refresh (ctrl + shift + R) the page.
 
-# Azure and Microsoft Fabric Login Credentials
+## Azure and Microsoft Fabric Login Credentials
 
 1. **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
