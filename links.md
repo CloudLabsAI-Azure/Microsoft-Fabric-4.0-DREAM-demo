@@ -40,8 +40,8 @@ In this demonstration, you'll witness how Contoso unfold the future of integrati
 
 |            |     |
 |-----------|-------|
-| **Username** | `<inject key="Teams Login UserName"></inject>` |
-| **Password** | `<inject key="Teams Login Password"></inject>` |
+| **Username** | <inject key="Teams Login UserName"></inject> |
+| **Password** | <inject key="Teams Login Password"></inject> |
 
 ---
 
