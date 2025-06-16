@@ -13,12 +13,12 @@ In this demonstration, you'll witness how Contoso unfold the future of integrati
 
 ---
 
-## Azure and Microsoft Fabric Login Credentials
+### Azure and Microsoft Fabric Login Credentials
 
-
-|------------------|--------------------------------------------|
-| **Email/Username** | <inject key="AzureAdUserEmail"></inject> |
-| **Password**       | <inject key="AzureAdUserPassword"></inject> |
+|                                |                                         |
+|--------------------------------|-----------------------------------------|
+| **Email/Username**             | <inject key="AzureAdUserEmail"></inject>  |
+| **Password**                   | <inject key="AzureAdUserPassword"></inject> |
 
 ---
 
