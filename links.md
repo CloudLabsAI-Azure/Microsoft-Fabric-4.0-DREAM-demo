@@ -18,8 +18,8 @@ In this demonstration, you'll witness how Contoso unfold the future of integrati
 
 | Field            | Value                                      |
 |------------------|--------------------------------------------|
-| **Email/Username** | `<inject key="AzureAdUserEmail"></inject>` |
-| **Password**       | `<inject key="AzureAdUserPassword"></inject>` |
+| **Email/Username** | <inject key="AzureAdUserEmail"></inject> |
+| **Password**       | <inject key="AzureAdUserPassword"></inject> |
 
 ---
 
