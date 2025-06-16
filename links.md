@@ -12,7 +12,7 @@ IMPORTANT! Please launch the demo 15 minutes prior to presenting. Some resources
 ## Microsoft Fabric Workspace
 **Link:** [https://app.powerbi.com/home?experience=fabric](https://app.powerbi.com/home?experience=fabric)
 
- - Notebook 1: [https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/9eea9742-abcd-48f1-83c2-289e3a2dcb48?experience=fabric-developer](01 Marketing Data to Lakehouse (Bronze) - Code-First Experience)
+ - Notebook 1: (https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/9eea9742-abcd-48f1-83c2-289e3a2dcb48?experience=fabric-developer)[01 Marketing Data to Lakehouse (Bronze) - Code-First Experience]
 
  - Notebook 2: [https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/a3e72a5d-b433-4f04-afbf-1a17e17efb19?experience=fabric-developer](02 Bronze to Silver layer Medallion Architecture)
 
