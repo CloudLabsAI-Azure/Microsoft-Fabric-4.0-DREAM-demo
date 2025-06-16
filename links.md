@@ -1,4 +1,4 @@
-#  Microsoft Fabric 4.0 DREAM Demo
+# 🚀 Microsoft Fabric 4.0 DREAM Demo
 
 This demonstration showcases how Contoso unfolds the future of integration and innovation with Microsoft Fabric. Experience the seamless collaboration enabled by OneLake, providing unified storage for innovation and teamwork. Witness the intelligence of Copilot in Data Warehouse, Data Science, and Real-Time Experience, offering coding assistance that transcends expectations.
 
@@ -11,14 +11,14 @@ This comprehensive demonstration highlights:
 
 ---
 
-## 🔑 Authentication Credentials
+## 🔑 Microsoft Fabric / Azure Authentication Credentials
 
 | Field | Value |
 |-------|-------|
 | **👤 Email** | `<inject key="AzureAdUserEmail"></inject>` |
 | **🔐 Password** | `<inject key="AzureAdUserPassword"></inject>` |
 
-## 👥 Teams Credentials
+## 👥 Microsoft Teams Credentials
 
 | Field | Value |
 |-------|-------|
