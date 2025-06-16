@@ -22,23 +22,26 @@ In this demonstration, you'll witness how Contoso unfold the future of integrati
 
 ---
 
-## Microsoft Fabric 4.0 WebApp
-**URL:** [https://app-fabric-demo-4-prod.azurewebsites.net](https://app-fabric-demo-4-prod.azurewebsites.net)
+### Microsoft Fabric 4.0 DREAM Demo Resources
 
-## Microsoft Fabric Workspace
-**Link:** [https://app.powerbi.com/home?experience=fabric](https://app.powerbi.com/home?experience=fabric)
-
-   - Notebook 1: [01 Marketing Data to Lakehouse (Bronze) - Code-First Experience](https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/9eea9742-abcd-48f1-83c2-289e3a2dcb48?experience=fabric-developer)
-
-   - Notebook 2: [02 Bronze to Silver layer Medallion Architecture](https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/a3e72a5d-b433-4f04-afbf-1a17e17efb19?experience=fabric-developer)
-
-   - Notebook 3: [03 Silver to Gold layer Medallion Architecture](https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/fbd416f0-b72a-4d2d-b96d-02421fff13f6?experience=fabric-developer)
+| Resource       | Link |
+|----------------|------|
+| **Web App**    | [https://app-fabric-demo-4-prod.azurewebsites.net](https://app-fabric-demo-4-prod.azurewebsites.net) |
+| **Workspace**  | [https://app.powerbi.com/home?experience=fabric](https://app.powerbi.com/home?experience=fabric) |
+| **Notebook 1** | [01 Marketing Data to Lakehouse (Bronze) - Code-First Experience](https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/9eea9742-abcd-48f1-83c2-289e3a2dcb48?experience=fabric-developer) |
+| **Notebook 2** | [02 Bronze to Silver layer Medallion Architecture](https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/a3e72a5d-b433-4f04-afbf-1a17e17efb19?experience=fabric-developer) |
+| **Notebook 3** | [03 Silver to Gold layer Medallion Architecture](https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/fbd416f0-b72a-4d2d-b96d-02421fff13f6?experience=fabric-developer) |
 
 ---
 
-## Teams Login Credentials
-- **Username:** <inject key="Teams Login UserName"></inject>  
-- **Password:** <inject key="Teams Login Password"></inject>
+&nbsp;
+
+### Teams Login Credentials
+
+|            |     |
+|-----------|-------|
+| **Username** | `<inject key="Teams Login UserName"></inject>` |
+| **Password** | `<inject key="Teams Login Password"></inject>` |
 
 ---
 
