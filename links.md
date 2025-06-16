@@ -11,34 +11,20 @@ This comprehensive demonstration highlights:
 
 ---
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+## 🔑 Authentication Credentials
 
-<div>
-<h2>🔑 Authentication Credentials</h2>
-<div style="background-color: #f8f9fa; border: 2px solid #007acc; border-radius: 8px; padding: 20px;">
+<div style="background-color: #f8f9fa; border: 2px solid #007acc; border-radius: 8px; padding: 20px; margin: 20px 0;">
   <h3 style="margin: 0 0 15px 0; color: #007acc;">Azure and Microsoft Fabric Login</h3>
-  <div style="display: grid; grid-template-columns: auto 1fr; gap: 10px 15px; align-items: center;">
-    <span style="font-weight: bold; color: #333;">👤 Email:</span>
-    <code style="background-color: #e9ecef; padding: 8px 12px; border-radius: 4px; font-family: monospace;">&lt;inject key="AzureAdUserEmail"&gt;&lt;/inject&gt;</code>
-    <span style="font-weight: bold; color: #333;">🔐 Password:</span>
-    <code style="background-color: #e9ecef; padding: 8px 12px; border-radius: 4px; font-family: monospace;">&lt;inject key="AzureAdUserPassword"&gt;&lt;/inject&gt;</code>
-  </div>
-</div>
+  <p style="margin: 8px 0;"><strong>👤 Email:</strong> <code style="background-color: #e9ecef; padding: 6px 10px; border-radius: 4px; font-family: monospace;">&lt;inject key="AzureAdUserEmail"&gt;&lt;/inject&gt;</code></p>
+  <p style="margin: 8px 0;"><strong>🔐 Password:</strong> <code style="background-color: #e9ecef; padding: 6px 10px; border-radius: 4px; font-family: monospace;">&lt;inject key="AzureAdUserPassword"&gt;&lt;/inject&gt;</code></p>
 </div>
 
-<div>
-<h2>👥 Teams Credentials</h2>
-<div style="background-color: #f0f8ff; border: 2px solid #6264a7; border-radius: 8px; padding: 20px;">
+## 👥 Teams Credentials
+
+<div style="background-color: #f0f8ff; border: 2px solid #6264a7; border-radius: 8px; padding: 20px; margin: 20px 0;">
   <h3 style="margin: 0 0 15px 0; color: #6264a7;">Microsoft Teams Login</h3>
-  <div style="display: grid; grid-template-columns: auto 1fr; gap: 10px 15px; align-items: center;">
-    <span style="font-weight: bold; color: #333;">👤 Username:</span>
-    <code style="background-color: #e9ecef; padding: 8px 12px; border-radius: 4px; font-family: monospace;">&lt;inject key="Teams Login UserName"&gt;&lt;/inject&gt;</code>
-    <span style="font-weight: bold; color: #333;">🔐 Password:</span>
-    <code style="background-color: #e9ecef; padding: 8px 12px; border-radius: 4px; font-family: monospace;">&lt;inject key="Teams Login Password"&gt;&lt;/inject&gt;</code>
-  </div>
-</div>
-</div>
-
+  <p style="margin: 8px 0;"><strong>👤 Username:</strong> <code style="background-color: #e9ecef; padding: 6px 10px; border-radius: 4px; font-family: monospace;">&lt;inject key="Teams Login UserName"&gt;&lt;/inject&gt;</code></p>
+  <p style="margin: 8px 0;"><strong>🔐 Password:</strong> <code style="background-color: #e9ecef; padding: 6px 10px; border-radius: 4px; font-family: monospace;">&lt;inject key="Teams Login Password"&gt;&lt;/inject&gt;</code></p>
 </div>
 
 ---
