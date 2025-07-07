@@ -1,104 +1,102 @@
-# 🚀 Microsoft Fabric 4.0 DREAM Demo
+<style>
+  table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+  }
 
-This demonstration showcases how Contoso unfolds the future of integration and innovation with Microsoft Fabric. Experience the seamless collaboration enabled by OneLake, providing unified storage for innovation and teamwork. Witness the intelligence of Copilot in Data Warehouse, Data Science, and Real-Time Experience, offering coding assistance that transcends expectations.
+  th {
+    background: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
 
-This comprehensive demonstration highlights:
+  td {
+    width: 900px;
+    height: 10px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
 
-- 🏗️ **Enhanced data reliability with Database Mirroring and shortcuts**
-- 🔄 **Real-time intelligence and proactive monitoring with Data Activator**
-- 🤖 **Intelligently crafted Power BI Copilot for business intelligence**
-- ⚡ **Secure and continuous flow of information across all workloads**
+  .description {
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    color: #444;
+  }
 
----
+  .highlight-box {
+    background: #f8f9fa;
+    padding: 12px 24px 12px 32px; /* Top, Right, Bottom, Left */
+    border-left: 4px solid #0078d4;
+    margin: 20px auto;
+    font-size: 14px;
+    text-align: left;
+}
 
-## 🔑 Microsoft Fabric / Azure Authentication Credentials
 
-| Field | Value |
-|-------|-------|
-| **👤 Email** | <inject key="AzureAdUserEmail"></inject> |
-| **🔐 Password** | <inject key="AzureAdUserPassword"></inject> |
+  }
+</style>
 
-## 👥 Microsoft Teams Credentials
-
-| Field | Value |
-|-------|-------|
-| **👤 Username** | <inject key="Teams Login UserName"></inject> |
-| **🔐 Password** | <inject key="Teams Login Password"></inject> |
-
----
-
-## 🌐 Primary Demo Resources
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;">
-
-<div style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 12px;">
-  <h3 style="margin: 0 0 8px 0;">🌐 Fabric 4.0 WebApp</h3>
-  <p style="margin: 0 0 8px 0; font-size: 14px; color: #666;">Primary Demo Interface</p>
-  <a href="https://app-fabric-demo-4-prod.azurewebsites.net" target="_blank" style="color: #0066cc; text-decoration: none; font-weight: bold;">🔗 Fabric Demo App</a>
+<div class="description">
+  <h2 style="color: #333;">📄 Description</h2>
+  <p>
+    In this demonstration, you'll witness how <strong>Contoso</strong> unfolds the future of integration and innovation with <strong>Microsoft Fabric</strong>.
+  </p>
+  <ul>
+    <li>Seamless collaboration enabled by <strong>OneLake</strong>, providing unified storage for innovation and teamwork.</li>
+    <li>Intelligent <strong>Copilot</strong> in Data Warehouse, Data Science, and Real-Time Experience to assist coding needs.</li>
+    <li>Enhanced data reliability with <strong>Database Mirroring</strong> and <strong>Shortcuts</strong> for secure data flow.</li>
+    <li><strong>Data Activator</strong> triggers real-time alerts by monitoring activity continuously.</li>
+    <li><strong>Power BI Copilot</strong> elevates business and technical insights for users.</li>
+  </ul>
 </div>
 
-<div style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 12px;">
-  <h3 style="margin: 0 0 8px 0;">📈 Fabric Workspace</h3>
-  <p style="margin: 0 0 8px 0; font-size: 14px; color: #666;">Main Fabric Environment</p>
-  <a href="https://app.powerbi.com/home?experience=fabric" target="_blank" style="color: #0066cc; text-decoration: none; font-weight: bold;">🔗 Fabric Home</a>
+<div class="highlight-box">
+  <strong>IMPORTANT:</strong><br>
+  Please launch the demo <strong>15 minutes before presenting</strong>. Resources may take a few minutes to provision.<br>
+  ODL access provisioning may take <strong>5–7 minutes</strong>.<br>
+  If unauthorized errors occur, wait a few minutes and then press <strong>Ctrl + Shift + R</strong> to refresh.
 </div>
 
-</div>
+<!-- Auth Table -->
 
----
+| **User Login Credentials** |                                       |
+|-----------------|---------------------------------------|
+| Username    | <inject key="AzureAdUserEmail" />     |
+| Password   | <inject key="AzureAdUserPassword" />  |
+| Teams Login Username | <inject key="Teams Login UserName" /> |
+| Teams Login Password | <inject key="Teams Login Password" /> |
 
-## 📓 Demo Notebooks
 
-<div style="background-color: #f3e5f5; border: 1px solid #ce93d8; border-radius: 8px; padding: 15px; margin: 15px 0;">
-<h3 style="margin: 0 0 15px 0;">🧠 Medallion Architecture Notebooks</h3>
-<div style="display: grid; gap: 10px;">
-
-<div style="background-color: white; border: 1px solid #e0e0e0; border-radius: 6px; padding: 10px;">
-<strong>📥 Notebook 1: Marketing Data to Lakehouse (Bronze)</strong><br>
-<em style="color: #666; font-size: 13px;">Code-First Experience</em><br>
-<a href="https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/9eea9742-abcd-48f1-83c2-289e3a2dcb48?experience=fabric-developer" target="_blank" style="color: #0066cc; font-size: 14px;">🔗 Open Notebook</a>
-</div>
-
-<div style="background-color: white; border: 1px solid #e0e0e0; border-radius: 6px; padding: 10px;">
-<strong>🔄 Notebook 2: Bronze to Silver Layer</strong><br>
-<em style="color: #666; font-size: 13px;">Medallion Architecture Transformation</em><br>
-<a href="https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/a3e72a5d-b433-4f04-afbf-1a17e17efb19?experience=fabric-developer" target="_blank" style="color: #0066cc; font-size: 14px;">🔗 Open Notebook</a>
-</div>
-
-<div style="background-color: white; border: 1px solid #e0e0e0; border-radius: 6px; padding: 10px;">
-<strong>⚡ Notebook 3: Silver to Gold Layer</strong><br>
-<em style="color: #666; font-size: 13px;">Final Medallion Architecture Stage</em><br>
-<a href="https://app.powerbi.com/groups/14d64fb3-a545-434e-a817-892a7212fafc/synapsenotebooks/fbd416f0-b72a-4d2d-b96d-02421fff13f6?experience=fabric-developer" target="_blank" style="color: #0066cc; font-size: 14px;">🔗 Open Notebook</a>
-</div>
-
-</div>
-</div>
-
----
-
-## 📋 Pro Tips
-
-<div style="background-color: #e8f4fd; border: 1px solid #bee5eb; border-radius: 8px; padding: 12px; margin: 15px 0;">
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
-    <div>
-      <h4 style="margin: 0 0 8px 0; color: #0c5460;">📝 Before Demo</h4>
-      <ul style="margin: 0; font-size: 14px;">
-        <li>Launch demo 15 min early</li>
-        <li>ODL provisioning: 5-7 minutes</li>
-        <li>Sign out of personal MS accounts</li>
-      </ul>
-    </div>
-    <div>
-      <h4 style="margin: 0 0 8px 0; color: #0c5460;">⚡ During Demo</h4>
-      <ul style="margin: 0; font-size: 14px;">
-        <li>Use hard refresh if unauthorized errors</li>
-        <li>Start with Fabric WebApp</li>
-        <li>Follow notebook sequence: 1 → 2 → 3</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div style="text-align: center; padding: 15px; background-color: #f8f9fa; border-radius: 8px; margin-top: 20px;">
-  <p style="margin: 0; color: #6c757d; font-style: italic;">Ready to experience the future of data with Microsoft Fabric! 🚀</p>
-</div>
+<!-- Resource Details Table -->
+<table>
+  <thead>
+    <tr>
+      <th>Resources</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web App Link</td>
+      <td>
+        <a href="https://app-fabric-demo-4-prod.azurewebsites.net" target="_blank">
+          https://app-fabric-demo-4-prod.azurewebsites.net
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Microsoft Fabric Workspace</td>
+      <td>
+        <a href="https://app.powerbi.com/home?experience=fabric" target="_blank">
+          https://app.powerbi.com/home?experience=fabric
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
